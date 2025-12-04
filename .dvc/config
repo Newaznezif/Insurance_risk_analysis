@@ -1,4 +1,8 @@
 [core]
     remote = localstorage
 ['remote "localstorage"']
+<<<<<<< HEAD
     url = ../DVC_storage
+=======
+    url = ../dvc_storage
+>>>>>>> task-1
