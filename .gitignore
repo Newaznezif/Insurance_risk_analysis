@@ -1,2 +1,5 @@
 .dvc/cache/
 DVC_storage/
+# .gitignore
+.dvc/cache/
+notebooks/insurance_analysis_results/
