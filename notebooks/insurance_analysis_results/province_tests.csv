@@ -1,0 +1,37 @@
+,ProvinceA,ProvinceB,p_value,Reject_H0
+0,Gauteng,KwaZulu-Natal,0.001269060918011549,True
+1,Gauteng,Mpumalanga,6.917217553664857e-05,True
+2,Gauteng,Eastern Cape,9.221360495930386e-12,True
+3,Gauteng,Western Cape,2.759839817754014e-16,True
+4,Gauteng,Limpopo,0.05393818680329295,False
+5,Gauteng,North West,7.84492305338496e-09,True
+6,Gauteng,Free State,1.933220906183531e-06,True
+7,Gauteng,Northern Cape,3.449054673002779e-06,True
+8,KwaZulu-Natal,Mpumalanga,0.09586394335132122,False
+9,KwaZulu-Natal,Eastern Cape,7.057998373631302e-06,True
+10,KwaZulu-Natal,Western Cape,7.510537705999756e-05,True
+11,KwaZulu-Natal,Limpopo,0.6773245982754836,False
+12,KwaZulu-Natal,North West,0.02574620455830449,True
+13,KwaZulu-Natal,Free State,0.000534711845939197,True
+14,KwaZulu-Natal,Northern Cape,0.0005701939401962708,True
+15,Mpumalanga,Eastern Cape,0.013756086849153122,True
+16,Mpumalanga,Western Cape,0.2797014918201335,False
+17,Mpumalanga,Limpopo,0.49233857761285793,False
+18,Mpumalanga,North West,0.9756418897803709,False
+19,Mpumalanga,Free State,0.02059202109181639,True
+20,Mpumalanga,Northern Cape,0.01708151347127312,True
+21,Eastern Cape,Western Cape,0.04516546540425572,True
+22,Eastern Cape,Limpopo,0.009247954332601603,True
+23,Eastern Cape,North West,0.0031676508277265706,True
+24,Eastern Cape,Free State,0.537978552950674,False
+25,Eastern Cape,Northern Cape,0.43090015534793635,False
+26,Western Cape,Limpopo,0.12660817258230833,False
+27,Western Cape,North West,0.1175438054081225,False
+28,Western Cape,Free State,0.05693960116608094,False
+29,Western Cape,Northern Cape,0.04598294617441299,True
+30,Limpopo,North West,0.45914409130709,False
+31,Limpopo,Free State,0.01076390350991346,True
+32,Limpopo,Northern Cape,0.008912539771085862,True
+33,North West,Free State,0.012129290112692856,True
+34,North West,Northern Cape,0.010520203199177165,True
+35,Free State,Northern Cape,0.8627512453989334,False
