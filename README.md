@@ -16,10 +16,9 @@ This project focuses on analyzing historical car insurance claims data from Sout
 
 ## Objectives
 
-* Understand the insurance dataset and its structure
-* Conduct Exploratory Data Analysis (EDA) to identify patterns in risk and profitability
-* Perform preliminary statistical analysis and visualize trends
-* Prepare for predictive modeling of TotalClaims and optimal premiums
+* Customer demographic information, policy details, and claim history.
+* Key features include age, policy type, claim amount, and previous claims.
+* Large datasets (e.g., `MachineLearningRating_v3.txt`) are managed via DVC to maintain repository performance and avoid GitHub size limits.
 
 ---
 
@@ -28,7 +27,11 @@ This project focuses on analyzing historical car insurance claims data from Sout
 **Source:** MachineLearningRating_v3.txt
 **Path:** `data/raw/MachineLearningRating_v3.txt`
 
-**Key Features:**
+  * t-tests for two-group comparisons
+  * ANOVA for multi-group comparisons
+  * Chi-square tests for categorical variables
+* Significance level: α = 0.05
+* Tools: Python (Pandas, NumPy, SciPy, Seaborn), Jupyter Notebook.
 
 * **Insurance Policy:** UnderwrittenCoverID, PolicyID, TransactionMonth
 * **Client Info:** Gender, MaritalStatus, Bank, AccountType …
@@ -111,7 +114,7 @@ git commit -m "Track raw dataset with DVC"
 * Descriptive statistics and key insights generated
 * Interim report prepared and saved in `reports/interim_report.md`
 
-**Pending:**
+## License
 
 * CI/CD via GitHub Actions (optional)
 * Task 2 modeling and hypothesis testing
