@@ -42,24 +42,21 @@ This project focuses on analyzing historical car insurance claims data from Sout
 
 ```
 Insurance_risk_analysis/
-│   README.md
-│   requirements.txt
-│   setup.sh
-│
+│ README.md
+│ requirements.txt
+│ setup.sh
 ├───data/
 │   └───raw/
 │       MachineLearningRating_v3.txt
 │
 ├───notebooks/
-│   ├───EDA.ipynb
-│   ├───Hypothesis_Tests.ipynb
-│   ├───Modeling.ipynb
-│   └───README.md
-│
+│   EDA.ipynb
+│   Hypothesis_Tests.ipynb
+│   Modeling.ipynb
+│   README.md
 ├───reports/
-│   ├───interim_report.md
-│   └───plots/
-│
+│   interim_report.md
+│   plots/
 └───src/
     data_preprocessing.py
     feature_engineering.py
