@@ -1,0 +1,16 @@
+{
+  "best_severity": {
+    "Model": "Linear Regression",
+    "RMSE": 0.17411874539033625,
+    "R2": 0.9999999999811489,
+    "MAE": 0.026707929238582496
+  },
+  "best_probability": {
+    "Model": "Decision Tree",
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1-Score": 1.0,
+    "ROC-AUC": 1.0
+  }
+}
