@@ -1,0 +1,80 @@
+{
+  "best_severity_model": "Linear Regression",
+  "best_probability_model": "Decision Tree",
+  "severity_performance": [
+    {
+      "Model": "Linear Regression",
+      "RMSE": 0.17411874539033625,
+      "R2": 0.9999999999811489,
+      "MAE": 0.026707929238582496
+    },
+    {
+      "Model": "Ridge Regression",
+      "RMSE": 28.423513041041833,
+      "R2": 0.999999497654529,
+      "MAE": 15.467428585223107
+    },
+    {
+      "Model": "Lasso Regression",
+      "RMSE": 1.6467357732676604,
+      "R2": 0.9999999983138553,
+      "MAE": 0.6673191484667262
+    },
+    {
+      "Model": "Decision Tree",
+      "RMSE": 2411.452715504564,
+      "R2": 0.9963841993037473,
+      "MAE": 1027.7589220400644
+    },
+    {
+      "Model": "Random Forest",
+      "RMSE": 869.9969323031922,
+      "R2": 0.9995293669463308,
+      "MAE": 131.79821699043293
+    },
+    {
+      "Model": "XGBoost",
+      "RMSE": 651.4110011794279,
+      "R2": 0.9997361499623778,
+      "MAE": 135.40123917360168
+    }
+  ],
+  "probability_performance": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9999800019998,
+      "Precision": 0.9946428571428572,
+      "Recall": 0.9982078853046595,
+      "F1-Score": 0.9964221824686941,
+      "ROC-AUC": 0.9999991913731809
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "ROC-AUC": 1.0
+    }
+  ],
+  "dataset_info": {
+    "total_policies": 1000098,
+    "policies_with_claims": 2788
+  }
+}
